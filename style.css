@@ -1,0 +1,96 @@
+/* Gaya dasar untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f6;
+}
+
+/* Container utama dashboard */
+.dashboard-container {
+    width: 360px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Header dengan logo kecil dan nama aplikasi */
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.logo-small {
+    width: 40px;
+    height: auto;
+}
+
+.app-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Kartu Saldo */
+.balance-card {
+    background-color: #f4f8fb;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.balance-header h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.balance-amount {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007acc;
+    margin-bottom: 5px;
+}
+
+.balance-usd {
+    font-size: 16px;
+    color: #888;
+}
+
+/* Tombol aksi (Send dan Receive) */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.send-btn {
+    background-color: #007acc;
+}
+
+.receive-btn {
+    background-color: #00b894;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
